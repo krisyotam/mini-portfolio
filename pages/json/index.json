@@ -1,0 +1,35 @@
+{
+    "images": [
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Aesthetic 1",
+        "link": "/pages/html/aesthetic1.html",
+        "text": "Minimal"
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Aesthetic 2",
+        "link": "/pages/html/aesthetic2.html",
+        "text": "Noir"
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Aesthetic 3",
+        "link": "/pages/html/aesthetic3.html",
+        "text": "Sublime"
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Aesthetic 4",
+        "link": "/pages/html/aesthetic4.html",
+        "text": "Elegant"
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Aesthetic 4",
+        "link": "/pages/html/aesthetic4.html",
+        "text": "Elegant"
+      }
+    ]
+  }
+  

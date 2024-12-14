@@ -1,0 +1,269 @@
+/* General Body Styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Clean, modern sans-serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container and Layout */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.left-column {
+    width: 40%; /* Wider bio info column */
+    padding-right: 40px; /* Slight padding for more breathing room */
+}
+
+/* Info Section Styling */
+.info {
+    font-size: 18px; /* Slightly larger text for readability */
+    color: #2c3e50; /* Darker text color for better contrast */
+    line-height: 1.6; /* Increased line-height for better spacing between lines */
+    margin-bottom: 24px; /* Reduced bottom margin for tighter layout */
+}
+
+.info p {
+    margin-bottom: 12px; /* Slight space between paragraphs */
+}
+
+/* Reset email link styling */
+.info a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color from its parent */
+}
+
+
+/* Light grey color change on hover */
+.info a:hover {
+    color: #bdc3c7; /* Light grey color */
+}
+
+
+.coordinates {
+    font-size: 16px; /* Slightly smaller font size for coordinates */
+    font-weight: 300; /* Lighter font weight for a subtle look */
+    color: #7f8c8d; /* A slightly lighter gray color for coordinates */
+}
+
+.resume-button {
+    margin-top: 16px; /* Space between the info section and the button */
+}
+
+/* Styling for Email and Resume Button */
+.info p:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last paragraph (email) */
+}
+
+.resume-link {
+    display: inline-block;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    margin-top: 12px;
+}
+
+.resume-link:hover {
+    background-color: #34495e; /* Darker shade on hover */
+}
+
+
+/* Logo Section */
+.logo {
+    font-size: 48px; /* Larger logo for prominence */
+    letter-spacing: 0.5em;
+    font-weight: 300; /* Light weight for elegance */
+    margin-bottom: 48px;
+    color: #2c3e50;
+    text-transform: uppercase; /* Formal look */
+}
+
+/* Info Section */
+.info {
+    font-size: 16px;
+    color: #34495e;
+    line-height: 1.8;
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+.coordinates {
+    margin-top: 24px;
+}
+
+/* Navigation Buttons */
+.navigation {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+/* Resume Button Styling */
+.resume-button {
+    margin-top: 16px; /* Reduced space between the info and the button */
+    text-align: center; /* Center the button */
+}
+
+.resume-link {
+    display: inline-block;
+    background-color: transparent; /* Transparent background */
+    color: #2c3e50; /* Dark text color */
+    padding: 8px 16px; /* Smaller padding for a smaller button */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Clean, modern font */
+    font-weight: 300; /* Light font weight */
+    font-size: 14px; /* Smaller font size */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #2c3e50; /* Border matching the text color */
+    border-radius: 6px; /* Slight rounding for elegance */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    text-decoration: none; /* Removes the underline */
+}
+
+.resume-link:hover {
+    background-color: #2c3e50; /* Dark background on hover */
+    color: #ffffff; /* White text on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Right Column (Image Section) */
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+}
+
+.image-container {
+    width: 250px; /* iPhone-like rectangle size */
+    height: 444px; /* Maintain 9:16 aspect ratio */
+    flex-shrink: 0;
+    border-radius: 12px; /* Slightly rounded corners */
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+    border: 2px solid #e0e0e0; /* Subtle, soft border */
+}
+
+/* Image Darkening on Hover */
+.image-container:hover {
+    transform: scale(1.05); /* Gentle zoom effect */
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+    filter: brightness(0.5); /* Darken the image */
+}
+
+/* Image Styling */
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Aesthetic Text */
+.aesthetic-text {
+    text-decoration: none; /* Removes the default underline */
+    color: inherit; /* Inherits the color from the parent (image text color) */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    letter-spacing: 2px; /* Adds subtle spacing for readability */
+    text-transform: uppercase; /* Ensures the text is in uppercase */
+    transition: color 0.3s ease, transform 0.3s ease; /* Adds smooth transition effects */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text on the image */
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0; /* Start with invisible text */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in */
+    font-weight: 300; /* Light weight for subtlety */
+    letter-spacing: 1px; /* Slight letter spacing for elegance */
+    text-transform: uppercase; /* Make text uppercase */
+}
+
+/* Hover Effect */
+.aesthetic-text:hover {
+    color: #fff; /* Changes color on hover */
+    transform: scale(1.1); /* Slightly enlarges the text on hover for an interactive effect */
+}
+
+/* Small Centered Underline */
+.aesthetic-text::after {
+    content: "";
+    display: block;
+    width: 40%; /* Adjust width of the underline */
+    height: 2px; /* Thickness of the underline */
+    background-color: #fff; /* Color of the underline */
+    margin: 10px auto 0; /* Position it right below the text */
+    opacity: 0; /* Start with invisible underline */
+    transition: opacity 0.3s ease-in-out; /* Fade-in effect */
+}
+
+/* Aesthetic Text on Hover (Including Underline) */
+.image-container:hover .aesthetic-text {
+    opacity: 1; /* Fade-in text on hover */
+}
+
+.image-container:hover .aesthetic-text::after {
+    opacity: 1; /* Fade-in the underline */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Stack columns vertically on small screens */
+    }
+
+    .logo, .info {
+        text-align: center; /* Center the text */
+    }
+
+    .navigation {
+        justify-content: center;
+    }
+
+    .image-row {
+        flex-direction: column; /* Stack images vertically on small screens */
+        align-items: center;
+        gap: 16px;
+    }
+
+    .image-container {
+        width: 100%; /* Make images take full width */
+        height: auto; /* Let height adjust with width */
+    }
+}

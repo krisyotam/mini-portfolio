@@ -1,0 +1,41 @@
+{
+    "gallery": [
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Photo 1",
+        "title": "Minimal Landscape",
+        "description": "Taken in the serene hills of Vermont."
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Photo 2",
+        "title": "Noir Cityscape",
+        "description": "A moody shot of Chicago's skyline at night."
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Photo 3",
+        "title": "Sublime Beach",
+        "description": "Captured during sunrise at Malibu Beach."
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Photo 4",
+        "title": "Elegant Architecture",
+        "description": "Architectural beauty from Paris, France."
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Photo 5",
+        "title": "Serenity in Nature",
+        "description": "A peaceful view of the forest in autumn."
+      },
+      {
+        "src": "/assets/portrait1.jpg",
+        "alt": "Photo 6",
+        "title": "Urban Reflections",
+        "description": "A rainy evening in New York City, capturing reflections on the pavement."
+      }
+    ]
+  }
+  

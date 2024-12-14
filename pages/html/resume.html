@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan O'Connor - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            margin-bottom: 60px;
+        }
+
+        .name {
+            font-size: 40px;  /* Reduced font size */
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            color: #222;
+            text-decoration: none;
+        }
+
+        .name:hover {
+            color: #666; /* Light grey color on hover */
+        }
+
+        .title {
+            font-size: 18px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            margin-bottom: 50px;
+        }
+
+        .contact-info a {
+            color: #666;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #222;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .experience-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .experience-company {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .skills-list {
+            list-style: none;
+        }
+
+        .skills-list li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .skills-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #666;
+        }
+
+        .notable-list {
+            list-style: none;
+        }
+
+        .notable-list li {
+            margin-bottom: 15px;
+        }
+
+        .notable-list strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Minimalistic Download Resume Button */
+        .download-btn {
+            display: inline-block;
+            background-color: #222;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="name"><h1>Ethan O'Connor</h1></a>
+        <div class="title">Owner & Photographer at Clarity Studios</div>
+        <div class="contact-info">
+            <a href="tel:+16309030420">+1 630-903-0420</a>
+            <a href="mailto:claritystudio@proton.me">claritystudio@proton.me</a>
+        </div>
+        <!-- Minimalistic Download Resume Button -->
+        <a href="/pages/pdf/ethan_resume.pdf" class="download-btn" download>Download Resume</a>
+    </header>
+
+    <div class="main-content">
+        <div class="left-column">
+            <section class="section">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="experience-item">
+                    <div class="experience-title">Owner & Photographer</div>
+                    <div class="experience-company">Clarity Studios / 2024–Present</div>
+                    <ul>
+                        <li>Photographed over 150 weddings across the U.S.</li>
+                        <li>Managed a team of 3 assistant photographers</li>
+                        <li>Developed a personalized approach for each client</li>
+                        <li>Handled post-production and album delivery process</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Notable Weddings</h2>
+                <ul class="notable-list">
+                    <li>
+                        <strong>Sarah and Daniel Edwards</strong>
+                        The Ritz-Carlton, Chicago, IL (March 2024)
+                    </li>
+                    <li>
+                        <strong>Olivia and James Price</strong>
+                        The Drake Hotel, Chicago, IL (July 2023)
+                    </li>
+                    <li>
+                        <strong>Emily and Michael Reed</strong>
+                        The Langham, Chicago, IL (May 2023)
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="right-column">
+            <section class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="experience-item">
+                    <div class="experience-title">High School Diploma</div>
+                    <div class="experience-company">Expected 2024</div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li>Wedding Photography</li>
+                    <li>Portrait Photography</li>
+                    <li>Adobe Lightroom</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Client Relations</li>
+                    <li>Team Management</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Certifications</h2>
+                <div class="experience-item">
+                    <div class="experience-title">Wedding Photography Masterclass</div>
+                    <div class="experience-company">2022</div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">Advanced Lighting Techniques</div>
+                    <div class="experience-company">2021</div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
